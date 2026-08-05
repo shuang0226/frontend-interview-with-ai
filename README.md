@@ -4,7 +4,20 @@
 
 ## 运行环境与要求
 
-- **Node.js 与 npm**：使用 Node.js 的 LTS 版本和 npm。仓库包含 `package-lock.json`，请使用 npm 安装依赖；项目当前未通过 `engines` 或 `.nvmrc` 锁定特定 Node.js 版本。
+| 项目 | 要求或建议 |
+| --- | --- |
+| Node.js | **推荐 20 LTS 或 22 LTS**；最低为 18.0.0。Node 18 请使用该主版本的最新维护版本。 |
+| npm | 使用随推荐 Node.js LTS 附带的 npm（建议 npm 10 或更高版本）。仓库包含 `package-lock.json`，请使用 npm 安装依赖。 |
+| 已验证环境 | 当前开发环境为 Node.js `v25.8.1`、npm `11.11.0`。 |
+| 操作系统 | macOS、Windows 与 Linux 均可运行；小程序预览还需要对应平台的开发者工具。 |
+
+开始前可通过以下命令检查版本：
+
+```bash
+node --version
+npm --version
+```
+
 - **网络与磁盘**：首次运行需要网络连接以下载根项目和 `rn-preview/` 的依赖。
 - **H5 预览**：需要现代浏览器。H5 开发服务器默认监听 `http://localhost:10086`，请确认该端口未被占用。
 - **小程序构建**：需要相应平台的开发者工具或真机环境。构建后将 `dist/` 导入微信、支付宝或头条小程序开发者工具进行预览与调试。
