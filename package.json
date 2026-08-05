@@ -1,0 +1,43 @@
+{
+  "name": "address-list-cross-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:h5": "taro build --type h5 --watch",
+    "dev:rn-preview": "npm --prefix rn-preview start",
+    "dev:rn-preview:ios": "npm --prefix rn-preview run ios",
+    "dev:rn-preview:android": "npm --prefix rn-preview run android",
+    "dev:rn-preview:web": "npm --prefix rn-preview run web",
+    "build:h5": "taro build --type h5",
+    "build:weapp": "taro build --type weapp",
+    "build:alipay": "taro build --type alipay",
+    "build:tt": "taro build --type tt",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@tarojs/components": "3.6.37",
+    "@tarojs/react": "3.6.37",
+    "@tarojs/runtime": "3.6.37",
+    "@tarojs/taro": "3.6.37",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@tarojs/cli": "3.6.37",
+    "@tarojs/plugin-framework-react": "3.6.37",
+    "@tarojs/plugin-platform-alipay": "3.6.37",
+    "@tarojs/plugin-platform-h5": "3.6.37",
+    "@tarojs/plugin-platform-tt": "3.6.37",
+    "@tarojs/plugin-platform-weapp": "3.6.37",
+    "@tarojs/webpack5-runner": "3.6.37",
+    "@pmmmwh/react-refresh-webpack-plugin": "0.5.15",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "babel-preset-taro": "3.6.37",
+    "sass": "1.77.6",
+    "typescript": "5.4.5",
+    "vitest": "1.6.0",
+    "webpack": "5.78.0"
+  }
+}

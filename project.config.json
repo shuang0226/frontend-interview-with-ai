@@ -1,0 +1,10 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "address-list-cross-platform",
+  "description": "跨端地址列表演示",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "minifyWXML": true
+  }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 352" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="panelFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffdda8"/>
+      <stop offset=".58" stop-color="#ffdda8"/>
+      <stop offset=".72" stop-color="#ffe3bb"/>
+      <stop offset=".8" stop-color="#ffe9cf"/>
+      <stop offset="1" stop-color="#ffe9cf"/>
+    </linearGradient>
+    <linearGradient id="arcWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffdda8" stop-opacity=".72"/>
+      <stop offset=".26" stop-color="#fff7eb" stop-opacity=".26"/>
+      <stop offset=".5" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".74" stop-color="#fff7eb" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#ffdda8" stop-opacity=".72"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 0H1120V352H0Z" fill="url(#panelFade)"/>
+  <path d="M28 28H752C780 55 794 105 794 176C794 247 780 297 752 324H28Z" fill="#fff"/>
+  <path d="M752 28C780 55 794 105 794 176C794 247 780 297 752 324Z" fill="url(#arcWash)"/>
+</svg>

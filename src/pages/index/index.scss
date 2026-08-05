@@ -1,0 +1,42 @@
+.address-page {
+  min-height: 100vh;
+  padding: 12rpx 0 16rpx;
+  background: #f6f7f9;
+}
+
+.address-page__list {
+  background: #fff;
+}
+
+.address-page__coupon-entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20rpx 24rpx 16rpx;
+  padding: 14rpx 20rpx;
+  border-radius: 18rpx;
+  background: #fff;
+  box-shadow: 0 5rpx 18rpx rgba(49, 54, 63, 0.05);
+}
+
+.address-page__coupon-entry-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  height: 56rpx;
+  min-height: 56rpx;
+  margin: 0;
+  padding: 0 22rpx;
+  border: 0;
+  border-radius: 28rpx;
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 1.2;
+  background: #e82034;
+}
+
+.address-page__coupon-entry-button::after {
+  border: 0;
+}

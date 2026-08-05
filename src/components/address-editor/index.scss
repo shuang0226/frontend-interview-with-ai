@@ -1,0 +1,138 @@
+.address-editor__mask {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+  background: rgba(0, 0, 0, 0.42);
+}
+
+@media screen and (min-width: 391PX) {
+  html .address-editor__mask {
+    right: auto;
+    left: 50%;
+    width: 390PX;
+    transform: translateX(-50%);
+  }
+}
+
+.address-editor {
+  width: 100%;
+  max-height: 88vh;
+  padding: 28rpx 28rpx calc(28rpx + env(safe-area-inset-bottom));
+  overflow-y: auto;
+  border-radius: 24rpx 24rpx 0 0;
+  background: #fff;
+}
+
+.address-editor__header,
+.address-editor__tags-heading,
+.address-editor__actions,
+.address-editor__tag-row {
+  display: flex;
+  align-items: center;
+}
+
+.address-editor__header {
+  justify-content: space-between;
+  margin-bottom: 24rpx;
+}
+
+.address-editor__title {
+  font-size: 36rpx;
+  font-weight: 700;
+}
+
+.address-editor__close {
+  padding: 8rpx;
+  color: #777d87;
+  font-size: 42rpx;
+  line-height: 1;
+}
+
+.address-editor__field {
+  margin-bottom: 18rpx;
+}
+
+.address-editor__label {
+  display: block;
+  margin-bottom: 10rpx;
+  color: #343840;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.address-editor__input,
+.address-editor__tag-input {
+  width: 100%;
+  height: 72rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #dcdfe5;
+  border-radius: 12rpx;
+  color: #1f2329;
+  font-size: 28rpx;
+}
+
+.address-editor__tags-heading {
+  justify-content: space-between;
+  margin-top: 8rpx;
+}
+
+.address-editor__add,
+.address-editor__remove,
+.address-editor__placement {
+  padding: 8rpx;
+  color: #e13a50;
+  font-size: 24rpx;
+}
+
+.address-editor__tag-row {
+  margin-bottom: 12rpx;
+}
+
+.address-editor__tag-input {
+  flex: 1;
+  min-width: 0;
+}
+
+.address-editor__placement {
+  flex: 0 0 auto;
+  color: #626873;
+  white-space: nowrap;
+}
+
+.address-editor__remove {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.address-editor__error {
+  display: block;
+  margin-top: 6rpx;
+  color: #dc3349;
+  font-size: 22rpx;
+}
+
+.address-editor__actions {
+  gap: 18rpx;
+  margin-top: 30rpx;
+}
+
+.address-editor__button {
+  flex: 1;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+}
+
+.address-editor__button--secondary {
+  color: #5c636e;
+  background: #f2f3f5;
+}
+
+.address-editor__button--primary {
+  color: #fff;
+  background: #e52d45;
+}

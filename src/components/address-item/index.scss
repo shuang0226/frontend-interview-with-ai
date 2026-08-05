@@ -1,0 +1,124 @@
+.address-item {
+  display: flex;
+  align-items: center;
+  padding: 22rpx 24rpx;
+  border-bottom: 1rpx solid #eeeef0;
+  background: #fff;
+}
+
+.address-item--compact {
+  padding-top: 14rpx;
+  padding-bottom: 14rpx;
+}
+
+.address-item--selected {
+  background: #fff6f5;
+}
+
+.address-item--selected .address-tag--pink {
+  background-color: #fff0f1;
+}
+
+.address-item--selected .address-tag--orange {
+  background-color: #fff3e8;
+}
+
+.address-item__radio {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 24rpx;
+  border: 2rpx solid #dedfe3;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.address-item__radio--checked {
+  border-color: #e52d45;
+  background: #e52d45;
+}
+
+.address-item__check {
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.address-item__content {
+  flex: 1;
+  min-width: 0;
+}
+
+.address-item__meta {
+  display: flex;
+  margin-top: 8rpx;
+  color: #a1a4aa;
+  font-size: 26rpx;
+  line-height: 36rpx;
+}
+
+.address-item__phone {
+  margin-left: 20rpx;
+}
+
+.address-item__edit {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 52rpx;
+  height: 52rpx;
+  margin-left: 16rpx;
+}
+
+.address-item__edit-icon {
+  position: relative;
+  width: 42rpx;
+  height: 42rpx;
+}
+
+.address-item__edit-paper {
+  position: absolute;
+  bottom: 2rpx;
+  left: 3rpx;
+  width: 29rpx;
+  height: 34rpx;
+  border: 3rpx solid #ee4055;
+  border-radius: 3rpx;
+  background: #fff;
+}
+
+.address-item__edit-line {
+  position: absolute;
+  left: 6rpx;
+  height: 3rpx;
+  border-radius: 3rpx;
+  background: #ee4055;
+}
+
+.address-item__edit-line--first {
+  top: 11rpx;
+  width: 12rpx;
+}
+
+.address-item__edit-line--second {
+  top: 19rpx;
+  width: 17rpx;
+}
+
+.address-item__edit-pen {
+  position: absolute;
+  top: 4rpx;
+  right: 0;
+  width: 22rpx;
+  height: 7rpx;
+  border: 3rpx solid #ee4055;
+  border-radius: 4rpx;
+  background: #fff;
+  transform: rotate(-48deg);
+  transform-origin: center;
+}
